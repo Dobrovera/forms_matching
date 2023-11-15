@@ -1,22 +1,13 @@
 import re
 
-from tinydb import TinyDB, Query
+from tinydb import TinyDB
 from flask import Flask, request, jsonify
 from datetime import datetime
 from urllib.parse import unquote
 
 
 app = Flask(__name__)
-
-
 db = TinyDB('database.json')
-User = Query()
-
-# db.insert({
-#     "name": "MyForm",
-#     "field_name_1": "email",
-#     "field_name_2": "phone"
-# })
 
 
 def is_valid_email(data):
