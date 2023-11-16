@@ -4,7 +4,7 @@
 
 ## Запуск приложения
 
-1. Клонируйте репозиторий и перейдите в корень проветк
+1. Клонируйте репозиторий и перейдите в корень проекта
 ```
 git clone https://github.com/Dobrovera/forms_matching
 ```
@@ -12,7 +12,7 @@ git clone https://github.com/Dobrovera/forms_matching
 cd test_forms/
 ```
 
-2. Установите зависимости:
+2. Установите зависимости
 
 ```
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ curl -X POST -d "f_name1=value1&f_name2=value2" http://localhost:5000/get_form
 ```
 
 
-#### В тестовом скрипте test_requests.sh находятся запросы к API и проверки его функциональности
+#### В тестовом скрипте test_requests.sh находятся запросы к API для проверки его функциональности
 ## Использование
 
 1. **На Linux/macOS:**
